@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Children-of-joy/static/css/main.8041db37.css",
-    "main.js": "/Children-of-joy/static/js/main.4914b93a.js",
+    "main.css": "/Children-of-joy/static/css/main.2bf1d4ed.css",
+    "main.js": "/Children-of-joy/static/js/main.c87a7689.js",
     "static/js/787.9d99e946.chunk.js": "/Children-of-joy/static/js/787.9d99e946.chunk.js",
     "static/media/page-with-title.png": "/Children-of-joy/static/media/page-with-title.ad99c30844177aff7514.png",
     "static/media/website-background.png": "/Children-of-joy/static/media/website-background.42df7547a8f01c746ebf.png",
     "static/media/face.png": "/Children-of-joy/static/media/face.c71d3906966196cc32b8.png",
     "index.html": "/Children-of-joy/index.html",
-    "main.8041db37.css.map": "/Children-of-joy/static/css/main.8041db37.css.map",
-    "main.4914b93a.js.map": "/Children-of-joy/static/js/main.4914b93a.js.map",
+    "main.2bf1d4ed.css.map": "/Children-of-joy/static/css/main.2bf1d4ed.css.map",
+    "main.c87a7689.js.map": "/Children-of-joy/static/js/main.c87a7689.js.map",
     "787.9d99e946.chunk.js.map": "/Children-of-joy/static/js/787.9d99e946.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8041db37.css",
-    "static/js/main.4914b93a.js"
+    "static/css/main.2bf1d4ed.css",
+    "static/js/main.c87a7689.js"
   ]
 }
