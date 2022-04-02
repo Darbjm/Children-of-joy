@@ -38,6 +38,10 @@
   transform: translate(0px, 2px);
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .page {
   position: absolute;
   z-index: 0;
