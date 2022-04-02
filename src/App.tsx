@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import face from './assets/face.svg';
 import './App.css';
 
 function App() {
+  const [isClicked, setIsClicked] = useState(false)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {isClicked ? <>
+            <div className='page'/>
+            <a className='pay' href='https://buy.stripe.com/5kA2bh5xN6XG8gwbII' target="_blank" rel="noopener noreferrer">JOIN THE CULT</a>
+            </>
+          : <button type='button' className='enter' onClick={() => 
+          setIsClicked(true)}>
+            <div className='rotate'>
+              <img  src={face} className="App-logo" alt="face" />
+            </div>
+        </button>
+        }
     </div>
   );
 }
