@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import face from './assets/face.svg';
+import face from './assets/face.png';
 import './App.css';
 
 function App() {
