@@ -7,7 +7,7 @@ function App() {
   const [isSliding, setIsSliding] = useState(false)
 
   useEffect(() => {
-    setTimeout(() => setIsClicked(true), 10000)
+    setTimeout(() => setIsClicked(true), 3000)
     setTimeout(() => setIsSliding(true), 5000)
   },[])
 
