@@ -33,7 +33,7 @@
   padding: 1em 3em;
   border-radius: 10px;
   box-shadow: 0px 2px 10px 2px #0000006b;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 12px;
 }
 
@@ -41,7 +41,7 @@
   animation: slide-up 1 5s forwards;
 }
 
-.pay:active{
+.pay:active {
   transform: translate(0px, 2px);
 }
 
@@ -77,10 +77,12 @@
     background-position: center;
   }
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: bounce infinite 5s ease-in-out;
   }
+
   .rotate {
     animation: spin infinite 5s linear;
   }
@@ -90,18 +92,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 @keyframes bounce {
-  0%   { transform: scale(1);}
-  50%  { transform: scale(2);}
-  100% { transform: scale(1);}
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 @keyframes slide-up {
-  0%   { transform: translate(0, 0);}
-  100% { transform: translate(0, -60px);}
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, -60px);
+  }
 }

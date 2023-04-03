@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import face from './assets/face.png';
+import { useEffect, useState } from 'react';
 import './App.css';
+import face from './assets/face.png';
 
 function App() {
   const [isClicked, setIsClicked] = useState(false)
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <div className={`page ${isClicked ? "view" : "hidden"}`}>
         {isClicked && 
-            <a className={`pay ${isSliding ? "slide-up" : ""}`} href='https://buy.stripe.com/5kA2bh5xN6XG8gwbII' target="_blank" rel="noopener noreferrer">JOIN THE CULT</a>}
+            <a className={`pay ${isSliding ? "slide-up" : ""}`} href='https://buy.stripe.com/5kA17dgcr2Hq8gwbIO' target="_blank" rel="noopener noreferrer">JOIN THE CULT</a>}
         </div>
         {!isClicked &&
         <button type='button' className='enter' onClick={() => 
